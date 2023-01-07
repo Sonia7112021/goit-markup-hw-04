@@ -7,6 +7,7 @@
   --fourth-section-bg: #f5f4fa;
   --footer-link: #ffffff99;
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -322,7 +323,11 @@ body {
   gap: 30px;
   list-style: none;
 }
-
+.mitte li:hover {
+  border: 1px solid #eeeeee;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 .hit {
   border-left: var(--text-grey);
   border-right: var(--text-grey);
@@ -331,4 +336,12 @@ body {
   border-bottom: var(--text-grey);
   border: 1px solid #eeeeee;
   border-top: 100px;
+}
+.diagram {
+  background-color: var(--fourth-section-bg);
+  border-radius: 4px;
+  padding: 21px 100px;
+  width: 270px;
+  margin: 20px auto;
+  height: 120px;
 }
