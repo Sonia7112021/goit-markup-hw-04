@@ -347,14 +347,20 @@ body {
   height: 120px;
 }
 .firmy {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background: var(--text-white);
 
-  background: var(--fourth-section-bg);
+  padding-top: 0px;
+  padding: 8px 10px;
+  margin: 0 auto;
 }
 .firmy:hover {
   color: var(--text-blue);
+}
+.firmy ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 30px;
 }
 
 .firmy li {
