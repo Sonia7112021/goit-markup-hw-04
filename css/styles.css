@@ -6,6 +6,7 @@
   --first-section-bg: #2f303a;
   --fourth-section-bg: #f5f4fa;
   --footer-link: #ffffff99;
+  --five-logo: #afb1b8;
 }
 
 * {
@@ -344,4 +345,28 @@ body {
   width: 270px;
   margin: 20px auto;
   height: 120px;
+}
+.firmy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: var(--fourth-section-bg);
+}
+.firmy:hover {
+  color: var(--text-blue);
+}
+
+.firmy li {
+  box-sizing: border-box;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  list-style: none;
+  column-gap: 30px;
+  padding: auto;
+}
+.five-section {
+  background-color: var(--fourth-section-bg);
 }
