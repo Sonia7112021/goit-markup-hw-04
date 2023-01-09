@@ -231,6 +231,7 @@ body {
   justify-content: center;
   align-items: center;
   list-style: none;
+  column-gap: 30px;
 }
 .section-two-title {
   margin-bottom: 10px;
@@ -355,9 +356,6 @@ body {
   background-color: var(--fourth-section-bg);
   border-radius: 4px;
   padding: 21px 100px;
-  width: 270px;
-
-  height: 120px;
   margin-bottom: 30px;
 }
 .diagram ul li {
@@ -384,12 +382,9 @@ body {
 
 .firmy li {
   box-sizing: border-box;
-  width: 170px;
-  height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
   list-style: none;
-  column-gap: 30px;
   padding: auto;
 }
 .five-section {
@@ -404,7 +399,7 @@ body {
   align-items: center;
   justify-content: center;
   list-style: none;
-  column-gap: 20px;
+  column-gap: 10px;
 }
 .symbolo li:hover svg {
   color: var(--text-blue);
