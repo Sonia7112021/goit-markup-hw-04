@@ -104,6 +104,7 @@ body {
 .hover:hover {
   color: var(--text-blue);
 }
+
 .hover-portfoli:hover {
   color: var(--text-white);
   background-color: var(--text-blue);
@@ -141,6 +142,13 @@ body {
   margin-left: auto;
   column-gap: 50px;
 }
+.nav-links a:hover svg {
+  fill: var(--text-blue);
+}
+
+.nav-links a svg {
+  margin-right: 10px;
+}
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -153,7 +161,12 @@ body {
 }
 .first-section {
   padding: 200px 0px;
-  background: var(--first-section-bg);
+  background-image: linear-gradient(
+      to bottom,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/imasess.jpg");
   width: 1600px;
   margin: 0 auto;
 }
@@ -291,6 +304,7 @@ body {
 }
 .footer-container {
   padding: 0 15px;
+  display: flex;
 }
 .footer-logo {
   margin-bottom: 20px;
@@ -325,7 +339,6 @@ body {
   list-style: none;
 }
 .mitte li:hover {
-  border: 1px solid #eeeeee;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -348,13 +361,13 @@ body {
 }
 .firmy {
   background: var(--text-white);
-
   padding-top: 0px;
   padding: 8px 10px;
   margin: 0 auto;
 }
-.firmy:hover {
+.firmy ul:hover {
   color: var(--text-blue);
+  fill: var(--five-logo);
 }
 .firmy ul {
   display: flex;
@@ -374,5 +387,75 @@ body {
   padding: auto;
 }
 .five-section {
-  background-color: var(--fourth-section-bg);
+  background-color: var(--text-white);
 }
+.symbolo {
+  margin-left: 30px;
+}
+.symbolo ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  column-gap: 20px;
+}
+.symbolo ul:hover svg {
+  color: var(--text-blue);
+  fill: var(--text-white);
+}
+.symbolo ul a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+.symbolo ul a svg {
+  fill: var(--five-logo);
+}
+.symbolo ul a:hover {
+  background: var(--text-blue);
+}
+.footer-socials {
+  margin-left: 70px;
+}
+.footer-socials h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--text-white);
+  margin-bottom: 20px;
+}
+.footer-socials ul a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+.footer-socials ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  column-gap: 10px;
+}
+.footer-socials ul a svg {
+  fill: var(--text-white);
+}
+.footer-socials ul a:hover {
+  background: var(--text-blue);
+}
+/* 
+zmian kolro svg
+.footer-socials ul a:hover svg {
+  fill: black;
+}
+*/
