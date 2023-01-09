@@ -380,7 +380,7 @@ body {
   fill: var(--five-logo);
 }
 
-.firmy li {
+.firmy ul li {
   box-sizing: border-box;
   border: 1px solid #afb1b8;
   border-radius: 4px;
