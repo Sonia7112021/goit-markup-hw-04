@@ -274,7 +274,7 @@ body {
   list-style: none;
   column-gap: 30px;
 }
-.fourth-section-grid li {
+.fourth-section-grid > li {
   background-color: var(--text-white);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -356,8 +356,12 @@ body {
   border-radius: 4px;
   padding: 21px 100px;
   width: 270px;
-  margin: 20px auto;
+
   height: 120px;
+  margin-bottom: 30px;
+}
+.diagram ul li {
+  margin-left: 30px;
 }
 .firmy {
   background: var(--text-white);
@@ -393,7 +397,7 @@ body {
 }
 .symbolo {
   margin-left: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .symbolo ul {
   display: flex;
@@ -418,7 +422,7 @@ body {
 .symbolo ul a svg {
   fill: var(--five-logo);
 }
-.symbolo ul a:hover {
+.symbolo ul li:hover a {
   background: var(--text-blue);
 }
 .footer-socials {
